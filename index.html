@@ -5,10 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Client Web</title>
     <!-- Inserire qui il codice per caricare i css di w3.css! --> 
-            
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
   </head>
   <body>
     <!-- Inserire qui il codice per definire il form -->
-         
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Registrazione evento</h2>
+      </div>
+      <div>
+        <form class="w3-container">
+          <p>
+            <label>Nome</label>
+              <input class="w3-input w3-border" type="text" name="nome">
+          </p>
+          <p>
+            <label>Cognome</label>
+              <input class="w3-input w3-border" type="text" name="cognome">
+          </p>
+          <p>
+            <label>Età</label>
+              <input class="w3-input w3-border" type="number" name="età">
+          </p>
+          <p>
+            <label>Data evento</label>
+              <input class="w3-input" type="date" name="dataEvento">
+          </p>
+          <p>
+            <label>Password evento</label>
+              <input class="w3-input w3-border" type="password" name="password">
+          </p>
+        </form>
+      </div>
+    </div> 
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Gadget</h2>
+      </div>
+      <div>
+        <form class="w3-container">
+          <p>
+            <input class="w3-check" type="checkbox" name="gadget1" value="Sciarpa" checked="checked">
+            <label>Sciarpa</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" name="gadget2" value="Cappellino" checked="checked">
+            <label>Cappellino</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" name="gadget3" value="Fischietto" checked="checked">
+            <label>Fischietto</label>
+          </p>
+        </form>
+      </div>
+    </div> 
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Settore tribuna</h2>
+      </div>
+      <div>
+        <form class="w3-container">
+          <p>
+            <input class="w3-radio" type="radio" name="tribuna" value="Nord">
+            <label>Nord</label>
+          </p>
+          <p>
+            <input class="w3-radio" type="radio" name="tribuna" value="Sud">
+            <label>Sud</label>
+          </p>
+          <p>
+            <input class="w3-radio" type="radio" name="tribuna" value="Est">
+            <label>Est</label>
+          </p>
+          <p>
+            <input class="w3-radio" type="radio" name="tribuna" value="Ovest">
+            <label>Ovest</label>
+          </p>
+        </form>
+      </div>
+    </div> 
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>Taglia maglietta</h2>
+      </div>
+      <div>
+        <form class="w3-container">
+          <p>
+            <select class="w3-select" name="tagliaMaglietta">
+              <option value="" disabled when selected>Scegli la taglia della maglietta</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+          </p>
+        </form>
+      </div>
+    </div> 
   </body>
 </html>
